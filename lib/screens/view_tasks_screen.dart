@@ -16,7 +16,7 @@ class TasksScreen extends StatefulWidget {
 class _TasksScreenState extends State<TasksScreen> {
   late TaskService _taskService;
   late String? _userId;
-  TaskStatus? _selectedFilter = TaskStatus.pending;
+  TaskStatus? _selectedFilter = TaskStatus.inProgress;
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   @override
